@@ -5,7 +5,7 @@
 This project demonstrates a production-ready, end-to-end data pipeline built on Microsoft Azure. It extracts raw data from GitHub, loads it into an Azure SQL Database, and orchestrates an incremental load into a Data Lake. Finally, the data is transformed through a Medallion Architecture (Bronze, Silver, Gold) using Azure Databricks to prepare it for downstream analytics.
 
 ## 🏗️ Architecture & Data Flow
-![Pipeline Architecture](images/pipeline_screenshot.png) *(Note: Ensure your screenshot file is named pipeline_screenshot.png or update this link)*
+![Pipeline Architecture](images/pipeline_screenshot.png) 
 
 1. **Initial Ingestion:** Raw data is fetched from a GitHub repository and loaded into an Azure SQL Database.
 2. **Incremental Load (ADF):** Azure Data Factory uses a `Lookup` activity to read a watermark table, fetching only new or updated records from Azure SQL.
