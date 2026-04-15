@@ -1,0 +1,17 @@
+{
+    "name": "ls_sqlserver",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "annotations": [],
+        "type": "AzureSqlDatabase",
+        "typeProperties": {
+            "server": "server2sales.database.windows.net",
+            "database": "carsalesdb",
+            "encrypt": "mandatory",
+            "trustServerCertificate": false,
+            "authenticationType": "SQL",
+            "userName": "adminsai",
+            "encryptedCredential": "[SECRET_MANAGED_BY_AZURE_KEY_VAULT]"
+        }
+    }
+}
