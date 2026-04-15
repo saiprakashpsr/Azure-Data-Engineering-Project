@@ -31,4 +31,4 @@ This project demonstrates a production-ready, end-to-end data pipeline built on 
 * `/adf` - Contains the JSON definitions for Pipelines, Datasets, and Linked Services.
 * `/databricks` - Contains the PySpark/Jupyter Notebooks for Silver and Gold layer transformations.
 * `/sql_scripts` - Contains the DDL for the Watermark table and the state-updating Stored Procedure.
-* `/images` - Architecture diagrams and control flow screenshots.
+* `/images` - Pipeline_screenshot
